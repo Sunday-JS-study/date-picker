@@ -2,11 +2,11 @@ const PATTERN_RESOURCE = '\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|m
 
 module.exports = {
   moduleNameMapper: {
-    [PATTERN_RESOURCE]: '<rootDir>/test/mocks/fileMock.js',
+    [PATTERN_RESOURCE]: '<rootDir>/test/mocks/fileMock.js'
   },
   testMatch: [
-    '<rootDir>/test/**/*.spec.js',
+    '<rootDir>/test/**/*.spec.js'
   ],
   testURL: 'http://localhost.com:3000',
-  coverageReporters: ['lcov', 'cobertura'],
+  coverageReporters: ['lcov', 'cobertura']
 };
